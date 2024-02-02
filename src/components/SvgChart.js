@@ -6,7 +6,7 @@ const Svg = () => (
       x1="5%"
       y1="5%"
       x2="5%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -15,7 +15,7 @@ const Svg = () => (
       x1="19%"
       y1="5%"
       x2="19%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -24,7 +24,7 @@ const Svg = () => (
       x1="33%"
       y1="5%"
       x2="33%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -33,7 +33,7 @@ const Svg = () => (
       x1="46%"
       y1="5%"
       x2="46%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -42,7 +42,7 @@ const Svg = () => (
       x1="60%"
       y1="5%"
       x2="60%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -51,7 +51,7 @@ const Svg = () => (
       x1="74%"
       y1="5%"
       x2="74%"
-      y2="95%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -60,7 +60,16 @@ const Svg = () => (
       x1="88%"
       y1="5%"
       x2="88%"
-      y2="95%"
+      y2="93%"
+      stroke="#000"
+      strokeDasharray="5"
+      strokeWidth="0.5"
+    />
+    <line
+      x1="96%"
+      y1="5%"
+      x2="96%"
+      y2="93%"
       stroke="#000"
       strokeDasharray="5"
       strokeWidth="0.5"
@@ -630,65 +639,107 @@ const Svg = () => (
     />
     {/* Text labels for y-axis */}
     {/* ... (text labels for y-axis) */}
-    <text x="1%" y="6%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      200%
+    <text x="1%" y="5%" fontFamily="Arial" fontSize="10" fill="#000">
+      100+
     </text>
-    <text x="1%" y="20%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      100%
+    <text x="1%" y="14%" fontFamily="Arial" fontSize="10" fill="#000">
+      94-94
     </text>
-    <text x="1%" y="34%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      50%
+    <text x="1%" y="23%" fontFamily="Arial" fontSize="10" fill="#000">
+      80-84
     </text>
-    <text x="1%" y="48%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      0%
+    <text x="1%" y="32%" fontFamily="Arial" fontSize="10" fill="#000">
+      70-74
     </text>
-    <text x="1%" y="62%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      -50%
+    <text x="1%" y="41%" fontFamily="Arial" fontSize="10" fill="#000">
+      60-64
     </text>
-    <text x="1%" y="76%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      -100%
+    <text x="1%" y="50%" fontFamily="Arial" fontSize="10" fill="#000">
+      50-54
     </text>
-    <text x="1%" y="90%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      -200%
+    <text x="1%" y="59%" fontFamily="Arial" fontSize="10" fill="#000">
+      40-44
+    </text>
+    <text x="1%" y="68%" fontFamily="Arial" fontSize="10" fill="#000">
+      30-34
+    </text>
+    <text x="1%" y="75%" fontFamily="Arial" fontSize="10" fill="#000">
+      20-24
+    </text>
+    <text x="1%" y="83%" fontFamily="Arial" fontSize="10" fill="#000">
+      10-14
+    </text>
+    <text x="1%" y="92%" fontFamily="Arial" fontSize="10" fill="#000">
+      0-4
     </text>
 
     {/* Text labels for x-axis (month names) */}
     {/* ... (text labels for x-axis) */}
-    <text x="10%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Jan
+    <text x="5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      10
     </text>
-    <text x="18%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Feb
+    <text x="9.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      9
     </text>
-    <text x="26%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Mar
+    <text x="14%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      8
     </text>
-    <text x="34%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Apr
+    <text x="18.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      7
     </text>
-    <text x="42%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      May
+    <text x="23%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      6
     </text>
-    <text x="50%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Jun
+    <text x="27.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      5
     </text>
-    <text x="58%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Jul
+    <text x="32%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      4
     </text>
-    <text x="66%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Aug
+    <text x="36.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      3
     </text>
-    <text x="74%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Sep
+    <text x="41%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      2
     </text>
-    <text x="82%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Oct
+    <text x="45.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      1
     </text>
-    <text x="90%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Nov
+    <text x="50%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      0
     </text>
-    <text x="98%" y="100%" fontFamily="Arial" fontSize="10" fill="#AEBBDA">
-      Dec
+    <text x="54.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      1
+    </text>
+    <text x="59%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      2
+    </text>
+    <text x="63.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      3
+    </text>
+    <text x="68%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      4
+    </text>
+    <text x="72.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      5
+    </text>
+    <text x="77%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      6
+    </text>
+    <text x="81.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      7
+    </text>
+    <text x="86%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      8
+    </text>
+    <text x="91.5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      9
+    </text>
+    <text x="96%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      10
+    </text>
+    <text x="50%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
+      0
     </text>
   </svg>
 );
