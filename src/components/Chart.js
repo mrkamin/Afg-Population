@@ -1,7 +1,47 @@
-const Chart = () => {
-    return (
-        <h1>Chart Component</h1>
-    )
-}
+import Svg from './SvgChart';
+import './chart.css';
 
-export default Chart 
+const Chart = () => (
+  <div className="chart-container d-flex flex-column gap-2 align-items-center p-5">
+    <div className="chart-cont-uper-head d-flex w-100 align-items-center justify-content-between">
+      <div className="uper-head-right-side">
+        <h4>Afghanistan Population</h4>
+      </div>
+      <div className="uper-head-left-side d-flex gap-5">
+        <div className="uper-head-left-side-item d-flex align-items-center gap-2">
+          <svg
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            className=""
+          >
+            <path
+              d="M 0 0 L 20 0 Q 20 0 20 20 L 20 20 L 0 20 Z"
+              fill="#0082CC"
+            />
+          </svg>
+          <div className="">Male Population</div>
+        </div>
+        <div className="uper-head-left-side-item d-flex align-items-center gap-2">
+          <svg
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            className=""
+          >
+            <path
+              d="M 0 0 L 20 0 Q 20 0 20 20 L 20 20 L 0 20 Z"
+              fill="#FB4540"
+            />
+          </svg>
+          <div className="white-dark">Famile Population</div>
+        </div>
+      </div>
+    </div>
+    <div className="chart-cont-chart w-100">
+      <Svg />
+    </div>
+  </div>
+);
+
+export default Chart;
