@@ -75,8 +75,6 @@ const Svg = () => (
       strokeWidth="0.5"
     />
     {/* Rectangles representing data */}
-    {/* You may adjust the dimensions and colors as needed */}
-    {/* ... (rectangles for userSignUp and userSubscribed) */}
     <rect
       x="49%"
       y="22.5%"
@@ -637,8 +635,7 @@ const Svg = () => (
       ry="5"
       stroke="#000"
     />
-    {/* Text labels for y-axis */}
-    {/* ... (text labels for y-axis) */}
+    {/* Text labels for y-axis (to show age) */}
     <text x="1%" y="5%" fontFamily="Arial" fontSize="10" fill="#000">
       100+
     </text>
@@ -673,8 +670,7 @@ const Svg = () => (
       0-4
     </text>
 
-    {/* Text labels for x-axis (month names) */}
-    {/* ... (text labels for x-axis) */}
+    {/* Text labels for x-axis (to show percentage) */}
     <text x="5%" y="100%" fontFamily="Arial" fontSize="10" fill="#000">
       10
     </text>

@@ -1,13 +1,18 @@
-import Svg from './SvgChart';
-import './chart.css';
+import Svg from './SvgChart'; // Importing the SVG component
+import './chart.css'; // Importing the CSS styles for the chart
 
+// Define the Chart component
 const Chart = () => (
   <div className="chart-container d-flex flex-column gap-2 align-items-center p-5">
+    {/* Upper header section */}
     <div className="chart-cont-uper-head d-flex w-100 align-items-center justify-content-between">
+      {/* Right side of the upper header */}
       <div className="uper-head-right-side">
         <h4>Afghanistan Population (2023)</h4>
       </div>
+      {/* Left side of the upper header */}
       <div className="uper-head-left-side d-flex gap-5">
+        {/* Item for male population */}
         <div className="uper-head-left-side-item d-flex align-items-center gap-2">
           <svg
             width="20"
@@ -22,6 +27,7 @@ const Chart = () => (
           </svg>
           <div className="">Male Population</div>
         </div>
+        {/* Item for female population */}
         <div className="uper-head-left-side-item d-flex align-items-center gap-2">
           <svg
             width="20"
@@ -38,14 +44,18 @@ const Chart = () => (
         </div>
       </div>
     </div>
+    {/* Chart section */}
     <div className="chart-cont-chart w-100 d-flex flex-column gap-3">
+      {/* Age labels and SVG chart */}
       <div className="d-flex gap-2 align-items-center">
         <h5 className="chart-age">Years</h5>
         <Svg />
       </div>
+      {/* Population percentage label */}
       <h5 className="p-0 m-0">Percentage of Population</h5>
+
     </div>
   </div>
 );
 
-export default Chart;
+export default Chart; // Exporting the Chart component
