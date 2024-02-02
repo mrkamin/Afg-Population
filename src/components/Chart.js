@@ -1,5 +1,5 @@
 import Svg from './SvgChart'; // Importing the SVG component
-import './chart.css'; // Importing the CSS styles for the chart
+import './Chart.css'; // Importing the CSS styles for the chart
 
 // Define the Chart component
 const Chart = () => (
