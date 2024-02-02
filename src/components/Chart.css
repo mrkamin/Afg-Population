@@ -1,7 +1,7 @@
 .svg {
-    height: 80vh;
+  height: 80vh;
 }
 
 .chart-age {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
