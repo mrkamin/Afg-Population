@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Chart from './components/Chart';
 
 function App() {
